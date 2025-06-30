@@ -5,7 +5,7 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 0
+        "y": 211.73355390598223
       },
       "nodes": [
         {
@@ -94,10 +94,11 @@
         }
       ],
       "name": "All tables",
-      "zoomValue": 100,
+      "zoomValue": 63.287087723234038,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
-      "hideKeyFieldsWhenCollapsed": false
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
     }
   ],
   "selectedDiagram": "All tables",

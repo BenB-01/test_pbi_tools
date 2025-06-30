@@ -18,9 +18,9 @@ table Date
 		summarizeBy: none
 		sourceColumn: DateKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column 'Fiscal Quarter'
 		dataType: string
@@ -58,9 +58,9 @@ table Date
 		summarizeBy: none
 		sourceColumn: MonthKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	hierarchy Fiscal
 

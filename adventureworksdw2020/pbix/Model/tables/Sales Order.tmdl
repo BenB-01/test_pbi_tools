@@ -29,9 +29,9 @@
 		summarizeBy: none
 		sourceColumn: SalesOrderLineKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	hierarchy 'Sales Orders'
 

@@ -28,9 +28,9 @@
 		summarizeBy: none
 		sourceColumn: SalesTerritoryKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	partition 'Sales Territory' = m
 		mode: import

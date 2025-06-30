@@ -50,9 +50,9 @@
 		summarizeBy: none
 		sourceColumn: ResellerKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column State-Province
 		dataType: string

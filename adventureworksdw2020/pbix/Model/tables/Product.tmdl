@@ -45,9 +45,9 @@
 		summarizeBy: none
 		sourceColumn: ProductKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column SKU
 		dataType: string

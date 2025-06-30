@@ -7,9 +7,9 @@
 		summarizeBy: none
 		sourceColumn: CustomerKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column DueDateKey
 		dataType: int64
@@ -18,9 +18,9 @@
 		summarizeBy: count
 		sourceColumn: DueDateKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column 'Extended Amount'
 		dataType: decimal
@@ -47,9 +47,9 @@
 		summarizeBy: none
 		sourceColumn: OrderDateKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column 'Product Standard Cost'
 		dataType: decimal
@@ -68,9 +68,9 @@
 		summarizeBy: none
 		sourceColumn: ProductKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column ResellerKey
 		dataType: int64
@@ -79,9 +79,9 @@
 		summarizeBy: none
 		sourceColumn: ResellerKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column 'Sales Amount'
 		dataType: decimal
@@ -100,9 +100,9 @@
 		summarizeBy: none
 		sourceColumn: SalesOrderLineKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column SalesTerritoryKey
 		dataType: int64
@@ -111,9 +111,9 @@
 		summarizeBy: none
 		sourceColumn: SalesTerritoryKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column ShipDateKey
 		dataType: int64
@@ -122,9 +122,9 @@
 		summarizeBy: count
 		sourceColumn: ShipDateKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column 'Total Product Cost'
 		dataType: decimal

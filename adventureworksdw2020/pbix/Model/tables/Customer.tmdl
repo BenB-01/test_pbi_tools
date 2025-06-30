@@ -37,9 +37,9 @@
 		summarizeBy: none
 		sourceColumn: CustomerKey
 
-		annotation SummarizationSetBy = Automatic
+		changedProperty = IsHidden
 
-		annotation PBI_ChangedProperties = ["IsHidden"]
+		annotation SummarizationSetBy = Automatic
 
 	column 'Postal Code'
 		dataType: string
